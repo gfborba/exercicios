@@ -1,0 +1,30 @@
+/* 
+Em HTML é id = Em CSS é #
+em HTML é class = em CSS é .
+*/
+
+
+body{
+    background-color: rgb(233, 210, 233) ;
+     font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+h1{
+    color: rgb(34, 94, 94);
+}
+h1#princ {
+    color: rgb(27, 61, 61);
+    background-color: rgb(175, 214, 199); ; text-align: center; border-radius: 35px;
+}
+h2{
+    color: rgb(43, 153, 153);
+}
+
+.basico {
+    text-align: center;
+}
+.intermediario {
+    text-align: center;
+}
+.avançado {
+    text-align: center;
+}
