@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, Tahoma, sans-serif;
+            background-color: rgba(190, 186, 180, 0.507);
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer{
+            background-color: black; color: aliceblue; text-align: center;
+        }
+        article {
+            padding: 10px;
+            background-color: antiquewhite;
+        }
+        article > aside {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre Lorem</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et debitis iure provident ratione quod accusantium maxime, enim ullam! Aliquid ex minus non quo laudantium amet magnam praesentium ipsum eligendi odit.</p>
+                <aside>
+                    <p>Artigo escrito por José Bezerra</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por guifborba</p>
+    </footer>
+</body>
+</html>
