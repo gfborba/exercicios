@@ -1,4 +1,5 @@
 
+
 body{
     background-color: #72dfa1;
 }
@@ -43,6 +44,9 @@ main{
     padding: 13px;
     text-align: justify;
 }
+h2{
+    font-family: 'android';
+}
 h3{
-
+ background-color: #72dfa1;
 }
