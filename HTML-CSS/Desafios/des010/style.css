@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: 'android';
+    src: url('idroid.otf') format('opentype');
+}
 
 body{
     background-color: #72dfa1;
@@ -46,8 +49,10 @@ main{
 }
 h2{
     color: #1A5C38;
+    font-family: android;
 }
 h3{
+    font-family: android;
  background-image: linear-gradient(to right, #a2dfbc60, #ffffff );
  color: #1A5C38;
 }
