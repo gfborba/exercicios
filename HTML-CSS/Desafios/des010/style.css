@@ -29,11 +29,11 @@ p#menu{
     display: inline;
     
 }
-p>span{
-    padding-left: 10px;
-    font-family:Roboto Condensed;
-    
+p#menu>span{
+    padding-left: 8px;
+    font-family:"Roboto Condensed";
 }
+
 p>span:hover{
     background-color: rgba(255, 254, 254, 0.397);
 }
@@ -45,8 +45,20 @@ main{
     text-align: justify;
 }
 h2{
-    font-family: 'android';
+    color: #1A5C38;
 }
 h3{
- background-color: #72dfa1;
+ background-image: linear-gradient(to right, #a2dfbc60, #ffffff );
+ color: #1A5C38;
+}
+
+img{
+    max-width: 35em;
+}
+a{
+    text-decoration: none;
+    color: #1A5C38;
+}
+a:active{
+    color: red;
 }
