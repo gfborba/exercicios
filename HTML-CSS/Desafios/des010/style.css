@@ -54,6 +54,7 @@ h3{
 
 img{
     max-width: 35em;
+    
 }
 a{
     text-decoration: none;
@@ -61,4 +62,26 @@ a{
 }
 a:active{
     color: red;
+}
+
+section#vid{
+    background-color: #1A5C38;
+    margin: auto;
+    width: 35em;
+    padding: 13px;
+    text-align: justify;
+}
+h4{
+    background-color: #1da156;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+    
+}
+p.fim{
+    background-color: #bbe7cf;
+    margin: 0px;
+    padding: 10px;
+    
 }
