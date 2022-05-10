@@ -12,9 +12,12 @@ body{
 header{
     background-image: linear-gradient(to bottom, #39CB79, #1A5C38);
     color: rgb(243, 247, 250);
-    padding-top: 30px;
+    padding-top: 40px;
     padding-bottom: 10px;
     margin-top: 0px;
+    min-height: 150px;
+    
+    
 }
 header>h1{
     text-align: center;
@@ -22,10 +25,13 @@ header>h1{
     font-size: 2.5em;
     font-weight: bolder;
     letter-spacing: 0.1em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.342);
+    font-size: 3em;
 
 }
 p#sub{
     text-align: center;
+    
     padding-bottom:20px;
     padding-top: 10px;
     
@@ -35,9 +41,12 @@ p#menu{
     
 }
 p#menu>span{
-    padding-left: 8px;
+    padding:10px;
     font-family:"bebas neue";
     letter-spacing: 0.05em;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+    
 }
 
 p>span:hover{
@@ -51,6 +60,9 @@ main{
     text-align: justify;
     min-width: 300px;
     max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 h2{
     color: #1A5C38;
@@ -64,6 +76,9 @@ h3{
 
 main img{
     max-width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
     
 }
 a{
@@ -77,9 +92,10 @@ a:active{
 section#vid{
     background-color: #1A5C38;
     margin: auto;
-    width: 35em;
+    min-width: 300px;
+    max-width: 1000px;
     padding: 13px;
-    text-align: justify;
+    text-align: center;
 }
 h4{
     background-color: #1da156;
