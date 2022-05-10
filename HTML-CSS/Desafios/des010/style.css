@@ -34,6 +34,7 @@ p#sub{
     
     padding-bottom:20px;
     padding-top: 10px;
+    font-size: 1.1em;
     
 }
 p#menu{
@@ -61,8 +62,7 @@ main{
     min-width: 300px;
     max-width: 1000px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    
 }
 h2{
     color: #1A5C38;
@@ -85,12 +85,15 @@ a{
     text-decoration: none;
     color: #1A5C38;
 }
+a:hover{
+    color: #acdf72;
+}
 a:active{
-    color: red;
+    color: rgb(182, 74, 47);
 }
 
 section#vid{
-    background-color: #1A5C38;
+    background-color: #1c6e2e;
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
@@ -120,4 +123,9 @@ footer{
 li{
     background-color: #bbe7cf;
     padding: 5px;
+}
+p{
+    margin: 10px;
+    text-indent: 20px;
+    line-height: 1.3em;
 }
