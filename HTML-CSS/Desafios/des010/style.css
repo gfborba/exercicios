@@ -46,9 +46,11 @@ p>span:hover{
 main{
     margin: auto;
     background-color: white;
-    width: 35em;
+    
     padding: 13px;
     text-align: justify;
+    min-width: 300px;
+    max-width: 1000px;
 }
 h2{
     color: #1A5C38;
@@ -56,12 +58,12 @@ h2{
 }
 h3{
     font-family: android;
- background-image: linear-gradient(to right, #a2dfbc60, #ffffff );
+ background-image: linear-gradient(to right, #8fe0b2a9, #ffffff );
  color: #1A5C38;
 }
 
-img{
-    max-width: 35em;
+main img{
+    max-width: 100%;
     
 }
 a{
