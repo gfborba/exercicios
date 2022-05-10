@@ -10,7 +10,7 @@ body{
 
 
 header{
-    background-image: linear-gradient(to bottom, #39CB79, #1A5C38);
+    background-image: linear-gradient(to bottom, #48b677, #0c2c1a);
     color: rgb(243, 247, 250);
     padding-top: 40px;
     padding-bottom: 10px;
@@ -43,7 +43,7 @@ p#menu{
 }
 p#menu>span{
     padding:10px;
-    font-family:"bebas neue";
+    font-size: bolder;
     letter-spacing: 0.05em;
     border-radius: 5px;
     transition-duration: 0.3s;
@@ -93,7 +93,7 @@ a:active{
 }
 
 section#vid{
-    background-color: #1c6e2e;
+    background-color: #1A5C38;
     margin: auto;
     min-width: 300px;
     max-width: 1000px;
@@ -101,19 +101,16 @@ section#vid{
     text-align: center;
 }
 h4{
-    background-color: #1da156;
+    background-color: #1A5C38;
     padding: 5px;
     color: #ffffff;
     border-radius: 10px 10px 0px 0px;
-    margin: 0px;
+    margin: auto;
     
 }
-p.fim{
-    background-color: #bbe7cf;
-    margin: 0px;
-    padding: 10px;
-    
-}
+
+
+
 footer{
     margin-top: 20px;
     text-align: center;
@@ -128,4 +125,26 @@ p{
     margin: 10px;
     text-indent: 20px;
     line-height: 1.3em;
+}
+
+aside{
+    margin: auto;
+    background-color:#bbe7cf;
+    
+    padding-bottom: 10px;
+    text-align: justify;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+}
+aside>ul{
+    list-style-position: inside;
+    list-style-type: '\2714\00A0';
+    
+    background-color: #bbe7cf;
+    margin: 0px;
+    padding: 10px;
+    columns: 2;
+    color: #1A5C38;
 }
