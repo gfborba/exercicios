@@ -1,0 +1,137 @@
+
+
+body{
+    margin: 0;
+    background-color: rgb(177, 255, 177);
+}
+
+header{
+    background-image: linear-gradient(to bottom, rgb(170, 252, 170), rgb(31, 51, 31));
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+header > h1{
+   margin: 0 auto;
+   text-align: center;
+   color: aliceblue;
+   padding: 1em;
+   font-size:2em;
+   max-width: 50%;
+}
+
+nav > a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1em;
+    
+}
+
+header > h2{
+    text-align: center;
+    color: aliceblue;
+    font-size:large;
+    font-weight: lighter;
+    max-width: 40%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+#first{
+    background-color: white;
+    margin: 0 auto;
+    max-width: 50%;
+    padding-bottom: 1% ;
+    padding-top: 1%;
+}
+
+#first>h1{
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#first>p{
+    text-indent: 3%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+    
+}
+
+#first>h2{
+    margin: 2%;
+    padding: 0.05em;
+    background-image: linear-gradient(to right, rgba(129, 179, 129, 0.452), rgba(171, 219, 171, 0.233), rgba(171, 219, 171, 0) ); ;
+    max-width: 50%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#video{
+    background-color: rgb(1, 41, 1);
+    margin: 0 auto;
+    max-width: 50%;
+    position: relative;
+    padding-bottom: 20%;
+}
+
+
+section{
+    margin: 0 auto;
+}
+
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#lista{
+    background-color: white;
+    margin: 0 auto;
+    max-width: 50%;
+    padding-bottom: 1% ;
+    padding-top: 1%;
+}
+
+#inside>h1{
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: white;
+    background-color: rgb(53, 170, 53);
+    padding: 0.5em;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+#inside>p{
+    text-indent: 3%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+    
+}
+
+#inside{
+    background-color: rgb(182, 212, 182);
+    max-width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-bottom: 1em;
+    
+}
+
+#lista>p{
+    text-indent: 3%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: justify;
+}
