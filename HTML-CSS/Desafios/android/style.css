@@ -39,6 +39,7 @@ header > h1{
    max-width: 50%;
    font-family: var(--fonte-destaque);
    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301) ;
+   font-weight: normal;
 }
 
 nav{
@@ -129,6 +130,8 @@ p>a:hover{
     background-image: linear-gradient(to right, rgba(129, 179, 129, 0.452), rgba(171, 219, 171, 0.233), rgba(171, 219, 171, 0) ); ;
     max-width: 50%;
     font-family: var(--fonte-android);
+    color:rgb(0, 151, 0); 
+    font-size: 1.3em;
 }
 
 img{
@@ -166,6 +169,7 @@ section{
     
     padding-bottom: 1% ;
     padding-top: 1%;
+    
 }
 
 #inside>h1{
@@ -194,7 +198,15 @@ section{
     margin: 0 auto;
     border-radius: 10px;
     padding-bottom: 1em;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.226);
     
+}
+
+ul{
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00A0';
+    /* \ para pegar o emoji, 2714 para o código, 00A0 para o espaço após o emoji */
 }
 
 #lista>p{
@@ -214,3 +226,15 @@ main strong{
     font-weight:bolder;
 }
 
+footer{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 54, 0);
+    padding: 5px
+}
+
+footer > p {
+    margin: 0 auto;
+    font-size: small;
+}
