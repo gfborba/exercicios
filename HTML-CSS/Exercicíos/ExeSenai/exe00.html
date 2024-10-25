@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script>
+        window.onload = function(){
+            var heading = document.createElement("h1");
+            var text = document.createTextNode("Cabeçalho");
+            heading.appendChild(text);
+            document.body.appendChild(heading);
+
+            var lista = document.createElement("ol");
+            document.body.appendChild(lista);
+
+            var button = document.createElement("button");
+            var textButton = document.createTextNode ("Clique Aqui");
+            button.appendChild(textButton);
+
+            document.body.appendChild(button);
+
+            button.addEventListener("click", function(event){
+                window.alert("ok")
+                console.log("Clicou")
+                heading.style.color = "#756"
+            })
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
