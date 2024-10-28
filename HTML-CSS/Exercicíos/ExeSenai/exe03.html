@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   
+    <script>
+         window.onload = function () {
+            var par1 = document.createElement("p")
+            var text1 = document.createTextNode("Paragrafo 1")
+            par1.appendChild(text1)
+            document.body.appendChild(par1)
+            par1.setAttribute("class", "negrito")
+
+            var par2 = document.createElement("p")
+            var text2 = document.createTextNode("Paragrafo 2")
+            par2.appendChild(text2)
+            document.body.appendChild(par2)
+            par2.setAttribute("class", "cor")
+        }
+    </script>
+     <style>
+        .negrito{
+            font-weight: bold;
+        }
+        .cor{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+
+</body>
+</html>
